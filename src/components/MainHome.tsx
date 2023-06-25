@@ -33,8 +33,8 @@ export default function MainHome() {
         getUser()
     }, [])
     return (
-        <div className="h-full bg-base-base-background">
-            <div className="w-[864px] h-[212px] bg-base-base-profile rounded-[10px] mx-auto">
+        <div className="h-full bg-base-base-background relative">
+            <div className="w-[800px] bg-base-base-profile rounded-[10px] absolute -top-20 left-1/2 transform -translate-x-1/2">
                 <div className="flex gap-8">
                     <img src={userProfile?.avatarUrl} alt="Avatar" className="w-[148px] h-[148px] rounded-lg my-8 ml-10" />
                     <div className="my-10 mr-8">
